@@ -1,0 +1,14 @@
+$TTL 648000
+@       IN      SOA     ns1.ms4.home. ns1.ms4.home (
+
+	1	; Serial
+	604800	; Refresh
+	86400	; Retry
+	2419200 ; Expire
+	604800 )	; Negative Cache TTL
+;
+@         IN      NS      ns1.ms4.home.
+16.0      IN	  PTR	  ns1.ms4.home.		
+16.0      IN      PTR     raspi.ms4.home.
+1.1       IN      PTR     god.ms4.home.
+
